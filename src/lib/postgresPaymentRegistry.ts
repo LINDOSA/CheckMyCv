@@ -13,7 +13,7 @@ import type { IPaymentRegistry, PaymentRecord } from './paymentRegistry';
  * because serverless functions open and drop connections constantly.
  */
 
-const TABLE = 'scoremycv_payments';
+const TABLE = 'checkmycv_payments';
 
 type PgPool = any;
 
